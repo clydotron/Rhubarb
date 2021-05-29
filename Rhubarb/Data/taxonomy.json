@@ -1,0 +1,20 @@
+[
+    {
+      "kingdom": "chromalveolata",
+      "phylum": "heterokontophyta",
+      "class": "phaeophyceae",
+      "order": "laminariales",
+      "family": "laminariaceae",
+      "genus": "pelagophycus",
+      "species": "porra"
+    },
+    {
+      "kingdom": "chromista",
+      "phylum": "ochrophyta",
+      "class": "phaeophyceae",
+      "order": "laminariales",
+      "family": "alariaceae",
+      "genus": "egregia",
+      "species": "menziesii"
+    }
+]

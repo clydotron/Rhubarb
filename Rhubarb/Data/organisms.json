@@ -1,0 +1,19 @@
+
+[
+{
+    "id":"fish1",
+    "commonName":"Goldfish",
+    "scientificName":"Fancy mcFishy fish",
+    "image":"fish",
+    "gallery": ["fish-1","fish-2","fish-3"],
+    "facts": ["fact-1","fact-2","fact-3"]
+},
+{
+    "id":"fish2",
+    "commonName":"Mudskipper",
+    "scientificName":"Mud mcFishy fish",
+    "image":"mudskipper",
+    "gallery": ["mudskipper-1","mudskipper-2","mudskipper-3"],
+    "facts": ["mudskipper-fact-1","mudskipper-fact-2","mudskipper-fact-3"]
+}
+]

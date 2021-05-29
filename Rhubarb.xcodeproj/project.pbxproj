@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6B90F8266124DF004B49F8 /* faq.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B90F7266124DF004B49F8 /* faq.json */; };
+		1E6B90FC26612726004B49F8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B90FB26612726004B49F8 /* Constant.swift */; };
+		1E6B911E2661575B004B49F8 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B911D2661575B004B49F8 /* test.json */; };
+		1E6B912826616B73004B49F8 /* RhubarbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B912726616B73004B49F8 /* RhubarbTests.swift */; };
+		1E6B913226616C24004B49F8 /* importJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B913126616C24004B49F8 /* importJSON.swift */; };
+		1E6B913626616C57004B49F8 /* XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B913526616C57004B49F8 /* XYZ.swift */; };
+		1E6B913A26616CC1004B49F8 /* taxonomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B913926616CC1004B49F8 /* taxonomy.json */; };
+		1E6B914426616DD3004B49F8 /* RhubarbTestsX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B914326616DD3004B49F8 /* RhubarbTestsX.swift */; };
+		1E6B915526617C99004B49F8 /* TaxonomyItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B915426617C99004B49F8 /* TaxonomyItemView.swift */; };
+		1E6B915A2661C52F004B49F8 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B91592661C52F004B49F8 /* InsetGalleryView.swift */; };
+		1E6B915F2661C790004B49F8 /* FAQListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B915E2661C790004B49F8 /* FAQListItemView.swift */; };
+		1E6B91682661CAD5004B49F8 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B91672661CAD5004B49F8 /* ImageDetailView.swift */; };
+		1EC256122650846C0085820E /* RhubarbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC256112650846C0085820E /* RhubarbApp.swift */; };
+		1EC256142650846C0085820E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC256132650846C0085820E /* ContentView.swift */; };
+		1EC25616265084730085820E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC25615265084730085820E /* Assets.xcassets */; };
+		1EC25619265084730085820E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC25618265084730085820E /* Preview Assets.xcassets */; };
+		1EC25626265084DA0085820E /* OrganismModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC25625265084DA0085820E /* OrganismModel.swift */; };
+		1EC2562A265086F50085820E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC25629265086F50085820E /* CodableBundleExtension.swift */; };
+		1EC2562E265087310085820E /* OrganismListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2562D265087310085820E /* OrganismListView.swift */; };
+		1EC25631265087480085820E /* OrganismListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC25630265087480085820E /* OrganismListItemView.swift */; };
+		1EC25634265087690085820E /* OrganismDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC25633265087690085820E /* OrganismDetailView.swift */; };
+		1EC25637265088280085820E /* organisms.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EC25636265088280085820E /* organisms.json */; };
+		1EC2563A26508E360085820E /* InsetFunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2563926508E360085820E /* InsetFunFactsView.swift */; };
+		1EC2563D26508F770085820E /* InsetTaxonomyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2563C26508F770085820E /* InsetTaxonomyView.swift */; };
+		1EC25640265090600085820E /* TaxonomyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2563F265090600085820E /* TaxonomyModel.swift */; };
+		1EC25643265090DE0085820E /* InsetDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC25642265090DE0085820E /* InsetDistributionView.swift */; };
+		1EC25646265090F30085820E /* InsetHabitatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC25645265090F30085820E /* InsetHabitatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6B912A26616B73004B49F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EC256062650846C0085820E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EC2560D2650846C0085820E;
+			remoteInfo = Rhubarb;
+		};
+		1E6B914626616DD3004B49F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EC256062650846C0085820E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EC2560D2650846C0085820E;
+			remoteInfo = Rhubarb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E6B90F7266124DF004B49F8 /* faq.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faq.json; sourceTree = "<group>"; };
+		1E6B90FB26612726004B49F8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1E6B911D2661575B004B49F8 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		1E6B912526616B73004B49F8 /* RhubarbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhubarbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6B912726616B73004B49F8 /* RhubarbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhubarbTests.swift; sourceTree = "<group>"; };
+		1E6B912926616B73004B49F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6B913126616C24004B49F8 /* importJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importJSON.swift; sourceTree = "<group>"; };
+		1E6B913526616C57004B49F8 /* XYZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ.swift; sourceTree = "<group>"; };
+		1E6B913926616CC1004B49F8 /* taxonomy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = taxonomy.json; sourceTree = "<group>"; };
+		1E6B914126616DD3004B49F8 /* RhubarbTestsX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhubarbTestsX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6B914326616DD3004B49F8 /* RhubarbTestsX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhubarbTestsX.swift; sourceTree = "<group>"; };
+		1E6B914526616DD3004B49F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6B915426617C99004B49F8 /* TaxonomyItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonomyItemView.swift; sourceTree = "<group>"; };
+		1E6B91592661C52F004B49F8 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		1E6B915E2661C790004B49F8 /* FAQListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListItemView.swift; sourceTree = "<group>"; };
+		1E6B91672661CAD5004B49F8 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		1EC2560E2650846C0085820E /* Rhubarb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhubarb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC256112650846C0085820E /* RhubarbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhubarbApp.swift; sourceTree = "<group>"; };
+		1EC256132650846C0085820E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EC25615265084730085820E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EC25618265084730085820E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EC2561A265084730085820E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC25625265084DA0085820E /* OrganismModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismModel.swift; sourceTree = "<group>"; };
+		1EC25629265086F50085820E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		1EC2562D265087310085820E /* OrganismListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismListView.swift; sourceTree = "<group>"; };
+		1EC25630265087480085820E /* OrganismListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismListItemView.swift; sourceTree = "<group>"; };
+		1EC25633265087690085820E /* OrganismDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismDetailView.swift; sourceTree = "<group>"; };
+		1EC25636265088280085820E /* organisms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = organisms.json; sourceTree = "<group>"; };
+		1EC2563926508E360085820E /* InsetFunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFunFactsView.swift; sourceTree = "<group>"; };
+		1EC2563C26508F770085820E /* InsetTaxonomyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTaxonomyView.swift; sourceTree = "<group>"; };
+		1EC2563F265090600085820E /* TaxonomyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonomyModel.swift; sourceTree = "<group>"; };
+		1EC25642265090DE0085820E /* InsetDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetDistributionView.swift; sourceTree = "<group>"; };
+		1EC25645265090F30085820E /* InsetHabitatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetHabitatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6B912226616B73004B49F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B913E26616DD3004B49F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EC2560B2650846C0085820E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6B90FA26612675004B49F8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B90FB26612726004B49F8 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1E6B90FE266156FF004B49F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1E6B912626616B73004B49F8 /* RhubarbTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B913526616C57004B49F8 /* XYZ.swift */,
+				1E6B913126616C24004B49F8 /* importJSON.swift */,
+				1E6B912726616B73004B49F8 /* RhubarbTests.swift */,
+				1E6B912926616B73004B49F8 /* Info.plist */,
+			);
+			path = RhubarbTests;
+			sourceTree = "<group>";
+		};
+		1E6B914226616DD3004B49F8 /* RhubarbTestsX */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B914326616DD3004B49F8 /* RhubarbTestsX.swift */,
+				1E6B914526616DD3004B49F8 /* Info.plist */,
+			);
+			path = RhubarbTestsX;
+			sourceTree = "<group>";
+		};
+		1E6B91632661C79A004B49F8 /* FAQs */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B915E2661C790004B49F8 /* FAQListItemView.swift */,
+			);
+			path = FAQs;
+			sourceTree = "<group>";
+		};
+		1EC256052650846C0085820E = {
+			isa = PBXGroup;
+			children = (
+				1EC256102650846C0085820E /* Rhubarb */,
+				1E6B912626616B73004B49F8 /* RhubarbTests */,
+				1E6B914226616DD3004B49F8 /* RhubarbTestsX */,
+				1EC2560F2650846C0085820E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EC2560F2650846C0085820E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC2560E2650846C0085820E /* Rhubarb.app */,
+				1E6B912526616B73004B49F8 /* RhubarbTests.xctest */,
+				1E6B914126616DD3004B49F8 /* RhubarbTestsX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EC256102650846C0085820E /* Rhubarb */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B90FE266156FF004B49F8 /* Images */,
+				1E6B90FA26612675004B49F8 /* Utility */,
+				1EC25628265086C70085820E /* Extensions */,
+				1EC25624265084AF0085820E /* Data */,
+				1EC256232650849E0085820E /* App */,
+				1EC25622265084970085820E /* Views */,
+				1EC256212650848B0085820E /* Models */,
+				1EC25615265084730085820E /* Assets.xcassets */,
+				1EC2561A265084730085820E /* Info.plist */,
+				1EC25617265084730085820E /* Preview Content */,
+			);
+			path = Rhubarb;
+			sourceTree = "<group>";
+		};
+		1EC25617265084730085820E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EC25618265084730085820E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EC256212650848B0085820E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EC25625265084DA0085820E /* OrganismModel.swift */,
+				1EC2563F265090600085820E /* TaxonomyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EC25622265084970085820E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B91632661C79A004B49F8 /* FAQs */,
+				1EC2562D265087310085820E /* OrganismListView.swift */,
+				1EC25630265087480085820E /* OrganismListItemView.swift */,
+				1EC25633265087690085820E /* OrganismDetailView.swift */,
+				1EC2563926508E360085820E /* InsetFunFactsView.swift */,
+				1EC2563C26508F770085820E /* InsetTaxonomyView.swift */,
+				1EC25642265090DE0085820E /* InsetDistributionView.swift */,
+				1EC25645265090F30085820E /* InsetHabitatView.swift */,
+				1E6B915426617C99004B49F8 /* TaxonomyItemView.swift */,
+				1E6B91592661C52F004B49F8 /* InsetGalleryView.swift */,
+				1E6B91672661CAD5004B49F8 /* ImageDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1EC256232650849E0085820E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1EC256112650846C0085820E /* RhubarbApp.swift */,
+				1EC256132650846C0085820E /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1EC25624265084AF0085820E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B911D2661575B004B49F8 /* test.json */,
+				1EC25636265088280085820E /* organisms.json */,
+				1E6B90F7266124DF004B49F8 /* faq.json */,
+				1E6B913926616CC1004B49F8 /* taxonomy.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1EC25628265086C70085820E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1EC25629265086F50085820E /* CodableBundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6B912426616B73004B49F8 /* RhubarbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6B912C26616B73004B49F8 /* Build configuration list for PBXNativeTarget "RhubarbTests" */;
+			buildPhases = (
+				1E6B912126616B73004B49F8 /* Sources */,
+				1E6B912226616B73004B49F8 /* Frameworks */,
+				1E6B912326616B73004B49F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6B912B26616B73004B49F8 /* PBXTargetDependency */,
+			);
+			name = RhubarbTests;
+			productName = RhubarbTests;
+			productReference = 1E6B912526616B73004B49F8 /* RhubarbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E6B914026616DD3004B49F8 /* RhubarbTestsX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6B914826616DD3004B49F8 /* Build configuration list for PBXNativeTarget "RhubarbTestsX" */;
+			buildPhases = (
+				1E6B913D26616DD3004B49F8 /* Sources */,
+				1E6B913E26616DD3004B49F8 /* Frameworks */,
+				1E6B913F26616DD3004B49F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6B914726616DD3004B49F8 /* PBXTargetDependency */,
+			);
+			name = RhubarbTestsX;
+			productName = RhubarbTestsX;
+			productReference = 1E6B914126616DD3004B49F8 /* RhubarbTestsX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EC2560D2650846C0085820E /* Rhubarb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC2561D265084730085820E /* Build configuration list for PBXNativeTarget "Rhubarb" */;
+			buildPhases = (
+				1EC2560A2650846C0085820E /* Sources */,
+				1EC2560B2650846C0085820E /* Frameworks */,
+				1EC2560C2650846C0085820E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rhubarb;
+			productName = Rhubarb;
+			productReference = 1EC2560E2650846C0085820E /* Rhubarb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EC256062650846C0085820E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1E6B912426616B73004B49F8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1EC2560D2650846C0085820E;
+					};
+					1E6B914026616DD3004B49F8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1EC2560D2650846C0085820E;
+					};
+					1EC2560D2650846C0085820E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1EC256092650846C0085820E /* Build configuration list for PBXProject "Rhubarb" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EC256052650846C0085820E;
+			productRefGroup = 1EC2560F2650846C0085820E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC2560D2650846C0085820E /* Rhubarb */,
+				1E6B912426616B73004B49F8 /* RhubarbTests */,
+				1E6B914026616DD3004B49F8 /* RhubarbTestsX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6B912326616B73004B49F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B913F26616DD3004B49F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EC2560C2650846C0085820E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B90F8266124DF004B49F8 /* faq.json in Resources */,
+				1E6B911E2661575B004B49F8 /* test.json in Resources */,
+				1E6B913A26616CC1004B49F8 /* taxonomy.json in Resources */,
+				1EC25619265084730085820E /* Preview Assets.xcassets in Resources */,
+				1EC25637265088280085820E /* organisms.json in Resources */,
+				1EC25616265084730085820E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6B912126616B73004B49F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B913226616C24004B49F8 /* importJSON.swift in Sources */,
+				1E6B913626616C57004B49F8 /* XYZ.swift in Sources */,
+				1E6B912826616B73004B49F8 /* RhubarbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B913D26616DD3004B49F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B914426616DD3004B49F8 /* RhubarbTestsX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EC2560A2650846C0085820E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC2562A265086F50085820E /* CodableBundleExtension.swift in Sources */,
+				1EC25643265090DE0085820E /* InsetDistributionView.swift in Sources */,
+				1E6B915A2661C52F004B49F8 /* InsetGalleryView.swift in Sources */,
+				1E6B91682661CAD5004B49F8 /* ImageDetailView.swift in Sources */,
+				1E6B915526617C99004B49F8 /* TaxonomyItemView.swift in Sources */,
+				1EC25631265087480085820E /* OrganismListItemView.swift in Sources */,
+				1EC2563A26508E360085820E /* InsetFunFactsView.swift in Sources */,
+				1EC25626265084DA0085820E /* OrganismModel.swift in Sources */,
+				1EC2562E265087310085820E /* OrganismListView.swift in Sources */,
+				1EC25634265087690085820E /* OrganismDetailView.swift in Sources */,
+				1EC256142650846C0085820E /* ContentView.swift in Sources */,
+				1EC25646265090F30085820E /* InsetHabitatView.swift in Sources */,
+				1E6B90FC26612726004B49F8 /* Constant.swift in Sources */,
+				1EC2563D26508F770085820E /* InsetTaxonomyView.swift in Sources */,
+				1EC25640265090600085820E /* TaxonomyModel.swift in Sources */,
+				1E6B915F2661C790004B49F8 /* FAQListItemView.swift in Sources */,
+				1EC256122650846C0085820E /* RhubarbApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E6B912B26616B73004B49F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EC2560D2650846C0085820E /* Rhubarb */;
+			targetProxy = 1E6B912A26616B73004B49F8 /* PBXContainerItemProxy */;
+		};
+		1E6B914726616DD3004B49F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EC2560D2650846C0085820E /* Rhubarb */;
+			targetProxy = 1E6B914626616DD3004B49F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E6B912D26616B73004B49F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7645S34N2Y;
+				INFOPLIST_FILE = RhubarbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozofunbucket.RhubarbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhubarb.app/Rhubarb";
+			};
+			name = Debug;
+		};
+		1E6B912E26616B73004B49F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7645S34N2Y;
+				INFOPLIST_FILE = RhubarbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozofunbucket.RhubarbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhubarb.app/Rhubarb";
+			};
+			name = Release;
+		};
+		1E6B914926616DD3004B49F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7645S34N2Y;
+				INFOPLIST_FILE = RhubarbTestsX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozofunbucket.RhubarbTestsX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhubarb.app/Rhubarb";
+			};
+			name = Debug;
+		};
+		1E6B914A26616DD3004B49F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7645S34N2Y;
+				INFOPLIST_FILE = RhubarbTestsX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozofunbucket.RhubarbTestsX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhubarb.app/Rhubarb";
+			};
+			name = Release;
+		};
+		1EC2561B265084730085820E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EC2561C265084730085820E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EC2561E265084730085820E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rhubarb/Preview Content\"";
+				DEVELOPMENT_TEAM = 7645S34N2Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rhubarb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozofunbucket.Rhubarb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EC2561F265084730085820E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rhubarb/Preview Content\"";
+				DEVELOPMENT_TEAM = 7645S34N2Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rhubarb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozofunbucket.Rhubarb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6B912C26616B73004B49F8 /* Build configuration list for PBXNativeTarget "RhubarbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B912D26616B73004B49F8 /* Debug */,
+				1E6B912E26616B73004B49F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6B914826616DD3004B49F8 /* Build configuration list for PBXNativeTarget "RhubarbTestsX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B914926616DD3004B49F8 /* Debug */,
+				1E6B914A26616DD3004B49F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC256092650846C0085820E /* Build configuration list for PBXProject "Rhubarb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC2561B265084730085820E /* Debug */,
+				1EC2561C265084730085820E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC2561D265084730085820E /* Build configuration list for PBXNativeTarget "Rhubarb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC2561E265084730085820E /* Debug */,
+				1EC2561F265084730085820E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EC256062650846C0085820E /* Project object */;
+}

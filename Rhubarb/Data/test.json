@@ -1,0 +1,78 @@
+[
+  {
+      "id": "o1",
+    "name": "Elk kelp",
+    "fancy": "Pelagophycus porra",
+    "group": "Algae - Brown",
+    "taxonomy": {
+      "kingdom": "chromalveolata",
+      "phylum": "heterokontophyta",
+      "class": "phaeophyceae",
+      "order": "laminariales",
+      "family": "laminariaceae",
+      "genus": "pelagophycus",
+      "species": "porra"
+    },
+    "description": "Elk kelp, has a long single stipe, large hollow bulb, and antler-like branches with broad blades. This alga is second in size only to the giant kelp macrocystis, and can be found in depths up to 50 m (150 ft). The stipe is rather small in relation to the large branches and blades, and can break in strong storm surge. When the stipe is broken, the remaining portion of the kelp will be found drifting in ocean currents, and eventually washed up on beaches.",
+    "habitat": "Deep rocky, subtidal",
+    "diet": "Sunlight and dissolved nutrients via photosynthesis.",
+    "funFacts": "Due to its limited range, elk kelp is somewhat unique to the Channel Islands region.",
+    "distribution": "Santa Cruz Island to mid-Baja California, Mexico",
+    "gallery": [
+      "ElkKelp1",
+      "ElkKelp2"
+    ],
+    "thumbnail": "ElkKelp_sm"
+  },
+  {
+      "id": "02",
+    "name": "Feather boa kelp",
+    "fancy": "Egregia menziesii",
+    "group": "Algae - Brown",
+    "taxonomy": {
+      "kingdom": "chromista",
+      "phylum": "ochrophyta",
+      "class": "phaeophyceae",
+      "order": "laminariales",
+      "family": "alariaceae",
+      "genus": "egregia",
+      "species": "menziesii"
+    },
+    "description": "This large brown alga can be brown to olive green and has a long, strap-like stipe 2 cm (1 in) wide with numerous flat, feathery lateral blades and gas-filled floats. It can be  1-5 m (3.3-16.4 ft) long.",
+    "habitat": "Common in moderately exposed areas in low intertidal to subtidal zones.",
+    "diet": "Sunlight and dissolved nutrients via photosynthesis.",
+    "funFacts": "\"\"Feather boa kelp gets its scientific name from the Latin word egregius\",\" meaning \"\"\"\"remarkable\"\"\"\". This alga has a very strong holdfast which helps it remain attached in surging waves.\"\"",
+    "distribution": "Alaska to Baja California. ",
+    "gallery": [
+      "FeatherBoaKelp1",
+      "FeatherBoaKelp2"
+    ],
+    "thumbnail": "FeatherBoaKelp_sm"
+  },
+  {
+      "id": "o3",
+    "name": "Giant kelp",
+    "fancy": "Macrocystis pyrifera",
+    "group": "Algae - Brown",
+    "taxonomy": {
+      "kingdom": "chromalveolata",
+      "phylum": "heterokontophyta",
+      "class": "phaeophyceae",
+      "order": "laminariales",
+      "family": "laminariaceae",
+      "genus": "macrocystis",
+      "species": "pyrifera"
+    },
+    "description": "This alga is golden brown. Its stipes grow to 40 m (130 ft) with blades to 80 cm (31.5 in). Drift giant kelp and holdfasts are commonly found washed up along the shoreline and in tide pools.",
+    "habitat": "Subtidal, forms kelp forests on rocky reefs.",
+    "diet": "Sunlight and dissolved nutrients via photosynthesis.",
+    "funFacts": "Giant kelp is harvested for use in hundreds of important products, including toothpaste and ice cream. Kelp forests have been compared to rain forests in terms of their importance as habitat and diversity of species.",
+    "distribution": "West coast of North and South America in temperate waters. ",
+    "gallery": [
+      "GiantKelp1",
+      "GiantKelp2",
+      "GiantKelp3"
+    ],
+    "thumbnail": "GiantKelp_sm"
+  }
+]
